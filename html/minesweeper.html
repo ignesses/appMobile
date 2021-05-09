@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script language="JavaScript" src="../minesweeper.js"></script>
+    <title>Minesweeper</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <!-- Marca/empresa -->
+        <a class="navbar-brand ml-4" href="../index.html" id="marca"
+          >Ignacio Esses</a
+        >
+        <!-- Botón colapsable -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item">
+              <a class="nav-link d-none d-md-block" href="../index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="minesweeper.html">JUEGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="creditos.html">CREDITOS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="col-12 mb-4">
+        <h1>Buscaminas</h1>
+      </div>
+
+      <div id="dashboard"></div>
+    </main>
+
+    <footer class="bg-dark fixed-bottom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 d-none d-lg-block"></div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <a
+              id="mailto"
+              href="mailto:ignacio.esses@davinci.edu.ar"
+              class="text-secondary"
+              >ignacio.esses@davinci.edu.ar</a
+            >
+          </div>
+          <div class="col-md-4 d-none d-lg-block">
+            <p id="programada" class="text-light">
+              Alumno de
+              <a
+                href="https://www.davinci.edu.ar/"
+                target="_blank"
+                class="text-light"
+                >Escuela DaVinci</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
