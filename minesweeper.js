@@ -236,7 +236,7 @@ function remainingMines() {
 function start() {
   minesweeper.rows = 10;
   minesweeper.columns = 10;
-  minesweeper.mines = 2;
+  minesweeper.mines = 10;
   minesweeper.minesFound = 0;
   paintDashboard();
   emptyDashboard();
